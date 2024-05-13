@@ -1,0 +1,75 @@
+/* App.css */
+
+
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fffefe; /* Background color for the entire page */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 100vh; /* Full height of the viewport */
+}
+
+/* Styles for signup and login forms */
+.sign-up-form {
+  width: 320px;
+  padding: 20px;
+  background-color: #899689; /* Background color for the form */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333; /* Header color */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333; /* Label color */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0f5d91; /* Button background color */
+  color: #213dc5; /* Button text color */
+  border-radius: 4px;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+button:hover {
+  background-color: #15dc4d; /* Button background color on hover */
+}
+
+p {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+p a {
+  color: #3498db; /* Link color */
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline; /* Underline link on hover */
+}
